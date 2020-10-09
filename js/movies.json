@@ -1,0 +1,38 @@
+var movieList = `[
+    {
+        "name": "AVENGERS ENDGAME",
+        "image": "../img/movie1.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ultricies, mi eget ullamcorper viverra, ex ante dapibus lacus, quis consectetur felis nibh id tellus.",
+        "likes": 0
+    },
+    {
+        "name": "INCEPTION",
+        "image": "../img/movie2.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ultricies, mi eget ullamcorper viverra, ex ante dapibus lacus, quis consectetur felis nibh id tellus.",
+        "likes": 0
+    },
+    {
+        "name": "君の名は。",
+        "image": "../img/movie3.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ultricies, mi eget ullamcorper viverra, ex ante dapibus lacus, quis consectetur felis nibh id tellus.",
+        "likes": 0
+    },
+    {
+        "name": "となりのトトロ",
+        "image": "../img/movie4.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ultricies, mi eget ullamcorper viverra, ex ante dapibus lacus, quis consectetur felis nibh id tellus.",
+        "likes": 0
+    },
+    {
+        "name": "PARASITE",
+        "image": "../img/movie5.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ultricies, mi eget ullamcorper viverra, ex ante dapibus lacus, quis consectetur felis nibh id tellus.",
+        "likes": 0
+    },
+    {
+        "name": "MY WAY",
+        "image": "../img/movie6.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ultricies, mi eget ullamcorper viverra, ex ante dapibus lacus, quis consectetur felis nibh id tellus.",
+        "likes": 0
+    }
+]`;

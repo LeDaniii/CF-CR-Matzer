@@ -1,0 +1,11 @@
+#mainHeader {
+  background: black;
+}
+
+#movie {
+  min-height: 100vh;
+}
+
+.fa-thumbs-up {
+  font-size: 1.5rem;
+}

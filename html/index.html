@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Jquery -->
+    <script src=" https://code.jquery.com/jquery-3.5.1.js "></script>
+    <!-- Bootstrap CDN -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/1dd2006b34.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Main Style Css -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Moviefactorie</title>
+  </head>
+  <body>
+    <section id="movie" class="bg-secondary">
+      <!-- Start Header -->
+      <div class="row">
+        <div class="col text-center">
+          <h1 id="mainHeader" class="text-uppercase text-white py-3 my-auto">
+            Movie Factory
+          </h1>
+        </div>
+      </div>
+      <div class="row bg-dark">
+        <div class="col-2 text-center">
+          <h3 class="text-uppercase my-2">
+            <a class="text-decoration-none text-white" href="#">Home</a>
+          </h3>
+        </div>
+      </div>
+      <div class="row bg-secondary">
+        <div class="col-2 offset-5 text-center">
+          <h3 class="text-uppercase my-2">
+            <a class="text-decoration-none text-white" href="#">Movies</a>
+          </h3>
+        </div>
+        <div class="col-2 offset-3 my-auto text-center">
+          <button type="button" class="btn btn-outline-warning">
+            <i class="fas fa-sort"></i> Sort
+          </button>
+        </div>
+      </div>
+      <!-- End Header -->
+      <!-- ------ Movie Section Start ----- -->
+      <div class="container mx-auto">
+        <div id="movieContainer" class="row no-gutters">
+          <!-- <div class="card col-5 mx-auto my-4 bg-dark">
+            <div class="row no-gutters">
+              <div class="col-5 p-1">
+                <img
+                  src="../img/movie1.jpg"
+                  class="card-img-top h-100"
+                  alt="..."
+                />
+              </div>
+              <div class="col-7">
+                <div class="card-body">
+                  <h5 class="card-title text-white">AVENGERS ENDGAME</h5>
+                  <p class="card-text text-white">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+                    consectetur alias temporibus ad consequatur, voluptates,
+                    labore dolorum aliquam accusamus numquam et porro eius harum
+                    distinctio.
+                  </p>
+                </div>
+                <div class="card-footer text-justivy">
+                  <div class="col-12 text-right">
+                    <span class="text-warning my-auto">516</span>
+                    <span class="text-warning my-auto ml-2"
+                      ><i class="far fa-thumbs-up"></i
+                    ></span>
+                    <button type="button" class="btn btn-outline-warning ml-2">
+                      Your Opinion!
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card col-5 mx-auto my-4 bg-dark">
+            <div class="row no-gutters">
+              <div class="col-5 p-1">
+                <img
+                  src="../img/movie2.jpg"
+                  class="card-img-top h-100"
+                  alt="..."
+                />
+              </div>
+              <div class="col-7">
+                <div class="card-body">
+                  <h5 class="card-title text-white">AVENGERS ENDGAME</h5>
+                  <p class="card-text text-white">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+                    consectetur alias temporibus ad consequatur, voluptates,
+                    labore dolorum aliquam accusamus numquam et porro eius harum
+                    distinctio.
+                  </p>
+                </div>
+                <div class="card-footer text-justivy">
+                  <div class="col-12 text-right">
+                    <span class="text-warning my-auto">516</span>
+                    <span class="text-warning my-auto ml-2"
+                      ><i class="far fa-thumbs-up"></i
+                    ></span>
+                    <button type="button" class="btn btn-outline-warning ml-2">
+                      Your Opinion!
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card col-5 mx-auto my-4 bg-dark">
+            <div class="row no-gutters">
+              <div class="col-5 p-1">
+                <img
+                  src="../img/movie3.jpg"
+                  class="card-img-top h-100"
+                  alt="..."
+                />
+              </div>
+              <div class="col-7">
+                <div class="card-body">
+                  <h5 class="card-title text-white">君の名は</h5>
+                  <p class="card-text text-white">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+                    consectetur alias temporibus ad consequatur, voluptates,
+                    labore dolorum aliquam accusamus numquam et porro eius harum
+                    distinctio.
+                  </p>
+                </div>
+                <div class="card-footer text-justivy">
+                  <div class="col-12 text-right">
+                    <span class="text-warning my-auto">516</span>
+                    <span class="text-warning my-auto ml-2"
+                      ><i class="far fa-thumbs-up"></i
+                    ></span>
+                    <button type="button" class="btn btn-outline-warning ml-2">
+                      Your Opinion!
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card col-5 mx-auto my-4 bg-dark">
+            <div class="row no-gutters">
+              <div class="col-5 p-1">
+                <img
+                  src="../img/movie4.jpg"
+                  class="card-img-top h-100"
+                  alt="..."
+                />
+              </div>
+              <div class="col-7">
+                <div class="card-body">
+                  <h5 class="card-title text-white">となりのトトロ</h5>
+                  <p class="card-text text-white">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+                    consectetur alias temporibus ad consequatur, voluptates,
+                    labore dolorum aliquam accusamus numquam et porro eius harum
+                    distinctio.
+                  </p>
+                </div>
+                <div class="card-footer text-justivy">
+                  <div class="col-12 text-right">
+                    <span class="text-warning my-auto">516</span>
+                    <span class="text-warning my-auto ml-2"
+                      ><i class="far fa-thumbs-up"></i
+                    ></span>
+                    <button type="button" class="btn btn-outline-warning ml-2">
+                      Your Opinion!
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card col-5 mx-auto my-4 bg-dark">
+            <div class="row no-gutters">
+              <div class="col-5 p-1">
+                <img
+                  src="../img/movie5.jpg"
+                  class="card-img-top h-100"
+                  alt="..."
+                />
+              </div>
+              <div class="col-7">
+                <div class="card-body">
+                  <h5 class="card-title text-white">AVENGERS ENDGAME</h5>
+                  <p class="card-text text-white">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+                    consectetur alias temporibus ad consequatur, voluptates,
+                    labore dolorum aliquam accusamus numquam et porro eius harum
+                    distinctio.
+                  </p>
+                </div>
+                <div class="card-footer text-justivy">
+                  <div class="col-12 text-right">
+                    <span class="text-warning my-auto">516</span>
+                    <span class="text-warning my-auto ml-2"
+                      ><i class="far fa-thumbs-up"></i
+                    ></span>
+                    <button type="button" class="btn btn-outline-warning ml-2">
+                      Your Opinion!
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card col-5 mx-auto my-4 bg-dark">
+            <div class="row no-gutters">
+              <div class="col-5 p-1">
+                <img
+                  src="../img/movie6.jpg"
+                  class="card-img-top h-100"
+                  alt="..."
+                />
+              </div>
+              <div class="col-7">
+                <div class="card-body">
+                  <h5 class="card-title text-white">AVENGERS ENDGAME</h5>
+                  <p class="card-text text-white">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+                    consectetur alias temporibus ad consequatur, voluptates,
+                    labore dolorum aliquam accusamus numquam et porro eius harum
+                    distinctio.
+                  </p>
+                </div>
+                <div class="card-footer text-justivy">
+                  <div class="col-12 text-right">
+                    <span class="text-warning my-auto">516</span>
+                    <span class="text-warning my-auto ml-2"
+                      ><i class="far fa-thumbs-up"></i
+                    ></span>
+                    <button type="button" class="btn btn-outline-warning ml-2">
+                      Your Opinion!
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+          <!-- </div> -->
+        </div>
+      </div>
+    </section>
+    <!-- ------ Movie Section End ----- -->
+    <!-- ------ Footer Section Start ----- -->
+    <!-- ------ Footer Section End ----- -->
+    <!-- movie Json -->
+    <script src="../js/movies.json"></script>
+    <!-- main js -->
+    <script src="../js/script.js"></script>
+  </body>
+</html>
