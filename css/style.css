@@ -179,6 +179,11 @@ html {
           transform: translateY(5px);
 }
 
+.card-trailer-btn a {
+  text-decoration: none;
+  color: #0b0c10;
+}
+
 .card-booking {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -299,5 +304,13 @@ html {
   border-radius: 2.5rem;
   -webkit-box-shadow: 0 7px 0 0 #141920;
           box-shadow: 0 7px 0 0 #141920;
+}
+
+.fas {
+  pointer-events: none;
+}
+
+span {
+  pointer-events: none;
 }
 /*# sourceMappingURL=style.css.map */

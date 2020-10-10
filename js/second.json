@@ -6,7 +6,7 @@ var movieList = `[
         "starring": "Robert Downey Jr., Chris Evans, Chris Hemsworth, Scarlett Johanson, Mark Ruffalo",
         "runtime": "3h 2m",
         "trailer": "https://www.imdb.com/title/tt4154796/?ref_=nv_sr_srsg_0",
-        "booking-today": "17:00",
+        "bookingToday": "Today 17:00",
         "likes": 0,
         "dislikes": 0
     },
@@ -16,7 +16,7 @@ var movieList = `[
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ultricies, mi eget ullamcorper viverra, ex ante dapibus lacus, quis consectetur felis nibh id tellus.",
         "starring": "Leonardo DiCaprio, Joseph Gordon-Levitt, Ellen Page",
         "runtime": "2h 42m",
-        "booking-today": "16:00",
+        "bookingToday": "Today 16:00",
         "trailer": "https://www.imdb.com/video/vi2959588889?playlistId=tt1375666&ref_=tt_ov_vi",
         "likes": 0,
         "dislikes": 0
@@ -24,22 +24,22 @@ var movieList = `[
     {
         "name": "君の名は。",
         "image": "../img/movie3.jpg",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ultricies, mi eget ullamcorper viverra, ex ante dapibus lacus, quis consectetur felis nibh id tellus.",
+        "description": "しかし私は、喜びを非難して苦痛を賞賛するという誤ったこの考えがすべてどのようにして誕生したかをあなたに説明しなければならないから、私はあなたにその体系を完璧に説明し、真実を求める偉大な探究家、人間の喜びを築く建築家の実践的な教えを詳しく説明しよう。",
         "starring": "立花 瀧 Taki Tachibana, 宮水 三葉 Mitsuha Miyamizu",
         "runtime": "1h 52m",
         "trailer": "http://www.kiminona.com/",
-        "booking-today": "20:00",
+        "bookingToday": "Today 20:00",
         "likes": 0,
         "dislikes": 0
     },
     {
         "name": "となりのトトロ",
         "image": "../img/movie4.jpg",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ultricies, mi eget ullamcorper viverra, ex ante dapibus lacus, quis consectetur felis nibh id tellus.",
+        "description": "しかし私は、喜びを非難して苦痛を賞賛するという誤ったこの考えがすべてどのようにして誕生したかをあなたに説明しなければならないから、私はあなたにその体系を完璧に説明し、真実を求める偉大な探究家、人間の喜びを築く建築家の実践的な教えを詳しく説明しよう。",
         "starring": "トトロ,　サツキ, メイ",
         "trailer": "https://www.youtube.com/watch?v=92a7Hj0ijLs",
         "runtime": "1h 28m",
-        "booking-today": "13:00",
+        "bookingToday": "Today 13:00",
         "likes": 0,
         "dislikes": 0
     },
@@ -50,7 +50,7 @@ var movieList = `[
         "starring": "Cho Yeo-jeong, Park So-dam, Choi Woo-shik, Jeong Ji-so Lee Sun Gyun",
         "trailer": "https://www.youtube.com/watch?v=5xH0HfJHsaY",
         "runtime": "2h 12m",
-        "booking-today": "21:00",
+        "bookingToday": "Today 21:00",
         "likes": 0,
         "dislikes": 0
     },
@@ -61,7 +61,7 @@ var movieList = `[
         "starring": "Joe Odagiri, Jang Dong-gun, Fan Bingbing, Kim In-kwon, Cheon HO-Jin",
         "trailer": "https://www.youtube.com/watch?v=alx6XKgTb54",
         "runtime": "2h 17m",
-        "booking-today": "22:00",
+        "bookingToday": "Today 22:00",
         "likes": 0,
         "dislikes": 0
     }
