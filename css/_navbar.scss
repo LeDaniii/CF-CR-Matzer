@@ -1,6 +1,7 @@
 .nav {
   @include flex(space-between, center, row);
   background: $second-color;
+  height: 8vh;
 
   h1 {
     color: $third-color;

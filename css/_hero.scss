@@ -58,6 +58,12 @@
   background: $fifth-color;
   font-size: $text;
   cursor: pointer;
+  box-shadow: 0 7px 0 0 #cf4c00;
+  border-left: 1px solid #cf4c00;
+  &:active {
+    box-shadow: 0 2px 0 0 #cf4c00;
+    transform: translateY(5px);
+  }
 }
 
 .card-booking {
@@ -73,6 +79,12 @@
   background: $fourth-color;
   border-radius: 1rem;
   cursor: pointer;
+  box-shadow: 0 7px 0 0 #c91666;
+  border-left: 1px solid #c91666;
+  &:hover {
+    box-shadow: 0 2px 0 0 #c91666;
+    transform: translateY(5px);
+  }
 }
 
 .card-footer {
@@ -81,21 +93,21 @@
   width: 100%;
 }
 
-.opinion-bar {
-  width: 50%;
-  height: 4rem;
-  background: $fourth-color;
-}
-
 .opinion-button {
   border: none;
   padding: 2rem 3rem 2rem 3rem;
   border-radius: 1rem;
-  margin-top: 3%;
+  margin-bottom: 2rem;
   background: rgb(21, 196, 29);
   font-size: $text;
   margin-left: 3rem;
   cursor: pointer;
+  box-shadow: 0 7px 0 0 rgb(14, 148, 21);
+  border-left: 1px solid rgb(14, 148, 21);
+  &:active {
+    box-shadow: 0 2px 0 0 rgb(14, 148, 21);
+    transform: translateY(5px);
+  }
 }
 
 .opinion-button-red {
@@ -107,7 +119,24 @@
   font-size: $text;
   margin-left: 3rem;
   cursor: pointer;
+  box-shadow: 0 7px 0 0 #990101;
+  border-left: 1px solid #990101;
+  &:active {
+    box-shadow: 0 2px 0 0 #990101;
+    transform: translateY(5px);
+  }
 }
+
+.opinion-bar {
+  @include flex(space-around, center, row);
+  font-size: $header1;
+  width: 50%;
+  height: 5rem;
+  background: linear-gradient(90deg, $sixth-color, rgb(21, 196, 29));
+  border-radius: 2.5rem;
+  box-shadow: 0 7px 0 0 #141920;
+}
+
 // .swiper-container {
 //   width: 80%;
 //   height: 80%;
