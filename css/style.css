@@ -1,11 +1,245 @@
-#mainHeader {
-  background: black;
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+  text-decoration: none;
 }
 
-#movie {
-  min-height: 100vh;
+html {
+  font-size: 62.5%;
 }
 
-.fa-thumbs-up {
-  font-size: 1.5rem;
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background: #1f2833;
 }
+
+.nav h1 {
+  color: #ffe3f1;
+  font-size: 4rem;
+  margin-left: 2rem;
+}
+
+.nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+  font-size: 2.5rem;
+  list-style: none;
+}
+
+.nav a {
+  margin: 0 2rem 0 2rem;
+  color: #ffe3f1;
+  text-decoration: none;
+}
+
+.hero {
+  height: 80vh;
+  padding-top: 5vh;
+  background: #0b0c10;
+}
+
+.hero .swiper-container {
+  width: 80%;
+  height: 70vh;
+}
+
+.movie-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background: #1f2833;
+  color: #ffe3f1;
+  height: 70vh;
+}
+
+.movie-card img {
+  height: 70vh;
+  width: auto;
+}
+
+.movie-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: space-between;
+      -ms-flex-align: space-between;
+          align-items: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+  height: 100%;
+  padding: 2rem;
+}
+
+.movie-description h1 {
+  font-size: 4rem;
+}
+
+.card-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: space-between;
+      -ms-flex-align: space-between;
+          align-items: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+  height: 65%;
+}
+
+.card-description p {
+  font-size: 2rem;
+  line-height: 3rem;
+}
+
+.card-description .card-starring {
+  padding-top: 2%;
+}
+
+.card-description .card-starring h2 {
+  font-size: 3rem;
+}
+
+.card-description .card-starring p {
+  line-height: 3rem;
+}
+
+.card-runtime {
+  width: 100%;
+}
+
+.card-trailer-btn {
+  border: none;
+  padding: 2rem;
+  border-radius: 1rem;
+  margin-top: 3%;
+  background: #ff5f01;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.card-booking {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+  font-size: 2.5rem;
+  margin-top: 2%;
+  width: 100%;
+}
+
+.booking-area {
+  padding: 1rem;
+  background: #fe1c80;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.card-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+  width: 100%;
+}
+
+.opinion-bar {
+  width: 50%;
+  height: 4rem;
+  background: #fe1c80;
+}
+
+.opinion-button {
+  border: none;
+  padding: 2rem 3rem 2rem 3rem;
+  border-radius: 1rem;
+  margin-top: 3%;
+  background: #15c41d;
+  font-size: 2rem;
+  margin-left: 3rem;
+  cursor: pointer;
+}
+
+.opinion-button-red {
+  border: none;
+  padding: 2rem 3rem 2rem 3rem;
+  border-radius: 1rem;
+  margin-top: 3%;
+  background: #ce0000;
+  font-size: 2rem;
+  margin-left: 3rem;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,122 @@
+.hero {
+  height: 80vh;
+  padding-top: 5vh;
+  background: $primary-color;
+  .swiper-container {
+    width: 80%;
+    height: 70vh;
+  }
+}
+
+.movie-card {
+  @include flex(space-between, center, row);
+  background: $second-color;
+  color: $third-color;
+  height: 70vh;
+  img {
+    height: 70vh;
+    width: auto;
+  }
+}
+
+.movie-description {
+  @include flex(flex-start, space-between, column);
+  flex-flow: wrap;
+  height: 100%;
+  padding: 2rem;
+  h1 {
+    font-size: $header1;
+  }
+}
+.card-description {
+  @include flex(flex-start, space-between, column);
+  flex-flow: wrap;
+  height: 65%;
+  p {
+    font-size: $text;
+    line-height: 3rem;
+  }
+  .card-starring {
+    padding-top: 2%;
+    h2 {
+      font-size: $header2;
+    }
+    p {
+      line-height: 3rem;
+    }
+  }
+}
+
+.card-runtime {
+  width: 100%;
+}
+.card-trailer-btn {
+  border: none;
+  padding: 2rem;
+  border-radius: 1rem;
+  margin-top: 3%;
+  background: $fifth-color;
+  font-size: $text;
+  cursor: pointer;
+}
+
+.card-booking {
+  @include flex(space-between, center, row);
+  flex-flow: wrap;
+  font-size: $header3;
+  margin-top: 2%;
+  width: 100%;
+}
+
+.booking-area {
+  padding: 1rem;
+  background: $fourth-color;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.card-footer {
+  @include flex(space-between, center, row);
+  flex-flow: wrap;
+  width: 100%;
+}
+
+.opinion-bar {
+  width: 50%;
+  height: 4rem;
+  background: $fourth-color;
+}
+
+.opinion-button {
+  border: none;
+  padding: 2rem 3rem 2rem 3rem;
+  border-radius: 1rem;
+  margin-top: 3%;
+  background: rgb(21, 196, 29);
+  font-size: $text;
+  margin-left: 3rem;
+  cursor: pointer;
+}
+
+.opinion-button-red {
+  border: none;
+  padding: 2rem 3rem 2rem 3rem;
+  border-radius: 1rem;
+  margin-top: 3%;
+  background: $sixth-color;
+  font-size: $text;
+  margin-left: 3rem;
+  cursor: pointer;
+}
+// .swiper-container {
+//   width: 80%;
+//   height: 80%;
+// }
+
+//   background: linear-gradient(
+//     45deg,
+//     rgba(0, 0, 0, 0.514),
+//     rgba(161, 33, 151, 0.514),
+//     rgba(189, 124, 20, 0.822),
+//     rgba(253, 0, 0, 0.514)
+//   );

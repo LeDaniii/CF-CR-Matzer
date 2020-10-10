@@ -1,0 +1,30 @@
+// ------ FlexBox for faster writing -----
+@mixin flex($justify, $align, $direction) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $direction;
+}
+
+// ----- Font-Sizes -----
+$header1: 4rem;
+$header2: 3rem;
+$header3: 2.5rem;
+$header4: 2rem;
+$text: 2rem;
+
+// ----- color scheme -----
+$primary-color: #0b0c10;
+$second-color: #1f2833;
+$third-color: #ffe3f1;
+$fourth-color: #fe1c80;
+$fifth-color: #ff5f01;
+$sixth-color: #ce0000;
+
+// ----- import Scss -----
+@import "./global";
+@import "./navbar";
+@import "./header";
+@import "./main";
+@import "./footer";
+@import "./hero";

@@ -1,0 +1,21 @@
+.nav {
+  @include flex(space-between, center, row);
+  background: $second-color;
+
+  h1 {
+    color: $third-color;
+    font-size: $header1;
+    margin-left: 2rem;
+  }
+  ul {
+    @include flex(space-around, center, row);
+    flex-flow: wrap;
+    font-size: $header3;
+    list-style: none;
+  }
+  a {
+    margin: 0 2rem 0 2rem;
+    color: $third-color;
+    text-decoration: none;
+  }
+}
